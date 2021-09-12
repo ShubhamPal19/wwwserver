@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About - Business Casual - Start Bootstrap Theme</title>
+    <title>About - The Perfect Cup - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,44 +32,17 @@
 
 <body>
 
-    <div class="brand">Business Casual</div>
+    <div class="brand">The Perfect Cup</div>
     <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <!-- navbar  area  -->
+        
+    <?php  require_once 'nav.php' ;?>
+        
+        <!-- navbar  area ends -->
+
+
+
 
     <div class="container">
 
@@ -78,12 +51,13 @@
                 <div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">About
-                        <strong>business casual</strong>
+                        <strong>The Perfect Cup</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed/Nu8kIIL-CDA?loop=1&amp;controls=0&amp;modestbranding=1' frameborder='0' allowfullscreen></iframe></div>
                 </div>
                 <div class="col-md-6">
                     <p>This is a great place to introduce your company or project and describe what you do.</p>
@@ -104,21 +78,21 @@
                     <hr>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <img class="img-responsive" src="img/abt1.jpg" alt="">
                     <h3>John Smith
-                        <small>Job Title</small>
+                        <small>Md</small>
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
+                    <img class="img-responsive" src="img/abt2.jpg" alt="">
+                    <h3>Kaira Mittal
+                        <small>DD</small>
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                    <h3>John Smith
-                        <small>Job Title</small>
+                    <img class="img-responsive" src="img/abt3.jpg" alt="">
+                    <h3>Shreya Rai
+                        <small>AM</small>
                     </h3>
                 </div>
                 <div class="clearfix"></div>
@@ -132,7 +106,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; The Perfect Cup 2014</p>
                 </div>
             </div>
         </div>
